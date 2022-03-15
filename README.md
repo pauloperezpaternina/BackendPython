@@ -1,7 +1,5 @@
 # BackendPython
 
-
-
 ## Python Zen
 
 En mac type python3.
