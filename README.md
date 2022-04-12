@@ -42,7 +42,10 @@ Start
 Clone repository
 ```bash
 cd Proyecto_venv
-pip install -r requiremets.txt
+python -m pip install virtualenv
+python -m venv venv
+venv\Scripts\activate.bat
+pip install -r requirements.txt
 
 ```
 
