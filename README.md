@@ -33,7 +33,7 @@ pip freeze
 pip install pandas
 
 pip freeze > requirements.txt
-pip install -r requiremets.txt
+pip install -r requirements.txt
 ```
 
 ## Proyecto_venv
