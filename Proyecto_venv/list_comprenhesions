@@ -1,0 +1,28 @@
+def run():
+    # Create list of the first 100 squared natural numbers
+    squares = []
+    for i in range(1, 101):
+        squares.append(i**2)
+
+    print(squares)
+    print("\n")
+    # Save only the square of the numbers that are not divisible by 3
+    numeros=[]
+    for i in range(1, 101):
+        if i % 3 != 0:
+            numeros.append(i**2)
+
+    print("Save only the square of the numbers that are not divisible by 3:\n")
+    print(numeros)
+
+    # List Comprenhesions
+    list = [i**2 for i in range(1, 101) if i % 3 != 0]
+    print("List Comprenhesions:\n")
+    print(list)
+
+    ## Create, with a list comprehension, a list of all multiples of 4 that are also multiples of 6 and 9, up to 5 digits
+    
+
+if __name__ == '__main__':
+    run()
+
