@@ -48,7 +48,7 @@ venv\Scripts\activate.bat
 pip install -r requirements.txt
 
 ```
-
+![List](image/List_Dict_Comprehensions.webp)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
